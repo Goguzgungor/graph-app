@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+#cyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ekran yüksekliği kadar alan kaplasın */
+}
