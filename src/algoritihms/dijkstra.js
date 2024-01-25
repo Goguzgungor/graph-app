@@ -1,5 +1,5 @@
-import {defaults} from "cytoscape/src/util";
 import * as is from "cytoscape/src/is";
+import {defaults} from "cytoscape/src/util";
 const dijkstraDefaults = defaults({
     root: null,
     weight: edge => 1,
